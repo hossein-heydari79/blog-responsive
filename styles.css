@@ -110,3 +110,98 @@ ul a:hover {
 .title p {
     margin-top: 20px;
 }
+
+.card {
+    width: 300px;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 10px;
+    /* flex-grow: 1; */
+    background-color: white;
+    box-shadow: 0px 0px 50px -20px #000000;
+    border-radius: 3px;
+}
+
+.div-card {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+.card2 img {
+    width: 100%;
+}
+
+.card3 img {
+    width: 100%;
+}
+
+.card4 img {
+    width: 100%;
+}
+
+.card5 img {
+    width: 100%;
+}
+
+.detail {
+    width: 80%;
+    height: 100%;
+    padding: 20px 0px;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+
+.detail p {
+    font-size: 13px;
+    color: gray;
+}
+
+.detail h2 {
+    margin: 15px 0px;
+}
+
+hr {
+    position: absolute;
+    bottom: 60px;
+    width: 80%;
+    left: -30px
+}
+
+.comment {
+    /* width: 40px; */
+    background-color: lightgray;
+    border-radius: 40%;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    padding: 5px 10px;
+    bottom: 45px;
+}
+
+.comment i {
+    margin-right: 5px;
+}
+
+.detail p:first-child {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.detail p:last-child {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
